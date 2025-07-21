@@ -17,9 +17,9 @@ Contains the scripts and data dictionary for the Bradford Royal Infirmary. This 
 The latest extract of Secondary Care data for BRI is stored in CB_FDM_BradfordRoyalInfirmary - build date 2025-07-21 
 
 # Tables
-The Bradford Royal Infirmary FDM (warehouse) is made up of 32 source tables (summarised below and data dictionaries linked) from routinely collected data from Bradford Royal Infirmary for 1,193,257 individuals and their routinely collcted clinical data. 
+The Bradford Royal Infirmary FDM (warehouse) is made up of 27 source tables (summarised below and data dictionaries linked) from routinely collected data from Bradford Royal Infirmary for 1,193,257 individuals and their routinely collcted clinical data. 
 
-Observation period: 2015-02-27 to 2025-06-04
+Observation period: 1900-01-01 to 2025-06-19
 
 
 The source tables are largely populated by fields with the tbl_ where there is a person and a start and end date, and cb_ where there is no identifiable person, these are typically lookups.
@@ -49,29 +49,21 @@ cb_critical_care_neonatal_daily
 
 tbl_episode
 
-cb_patient
-
-cb_Neck_breathers_in_community
-
 tbl_theatre
 
 tbl_critical_care_full_data_2015_2021
 
 tbl_maternity_pathway_antenatal
 
+cb_maternity_pathway_postnatal
+
 tbl_critical_care_ICNARC_observation
-
-tbl_maternity_birth
-
-tbl_maternity_care_plan
-
-cb_maternity_delivery
-
-tbl_maternity_pregnancy_and_booking_details
 
 tbl_autism_amalgamated
 
 tbl_ec_backward_compatible_susplus
+
+tbl_autism_amalgamated_ptl_oct2022	
 
 tbl_ae_nautilus
 
