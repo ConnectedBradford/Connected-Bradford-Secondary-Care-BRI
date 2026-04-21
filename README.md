@@ -11,6 +11,9 @@ As a standard all our research datasets are stored in a Flexible Data Model (FDM
 
 # Connected Bradford Secondary Care - Bradford Royal Infirmary (CB_FDM_BradfordRoyalInfirmary) 
 
+> [!WARNING]  
+> THIS information is out of date and subject to review. (20/04/2026) 
+
 Contains the scripts and data dictionary for the Bradford Royal Infirmary. This is the Hospital data gathered at Bradford Royal Infirmary. The dataset has been fully anonymised, but can link to other FDM's.
 
 
